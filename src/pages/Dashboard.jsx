@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
+console.log("Dashboard sayfasına giriş yapıldı!");
+
 export default function Dashboard() {
     const [activeTab, setActiveTab] = useState('email');
     const [text, setText] = useState('');
